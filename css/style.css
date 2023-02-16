@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(108, 255, 108);
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
