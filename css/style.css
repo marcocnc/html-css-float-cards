@@ -5,7 +5,6 @@
 }
 
 body{
-    background-color: rgb(108, 255, 108);
     font-family: 'Fredoka', sans-serif;
 }
 
@@ -14,4 +13,16 @@ body{
     max-width: 90%;
     margin: 0 auto;
     text-align: center;
+    background-color: rgb(103, 103, 244);
+}
+
+.container, header p{
+    margin-top: 2rem;
+}
+
+/* Header */
+header span{
+    color: #E53170;
+    font-weight: 900;
+    font-size: 2rem;
 }
