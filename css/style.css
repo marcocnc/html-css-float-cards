@@ -13,7 +13,10 @@ body{
     max-width: 90%;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(103, 103, 244);
+}
+
+main.container{
+    text-align: left;
 }
 
 .container, header p, main{
@@ -24,6 +27,12 @@ main ul li{
     list-style: none;
 }
 
+.clearfix::after{
+    content:'';
+    display:table;
+    clear: both;
+}
+
 /* Header */
 header span{
     color: #E53170;
@@ -32,16 +41,20 @@ header span{
 }
 
 /* Main */
-.team{
-    width: calc(100% / 3);
-    border: 1px solid black;
+.team li {
+    width: calc(100% / 3 - 20px);
     background-color: red;
     float: left;
-    
+    margin: 0 10px 20px; 
 }
 
 li img{
     width: 100px;
     height: 100px;
+    float: left;
     
+}
+
+.id span{
+    padding-left:10px;
 }
