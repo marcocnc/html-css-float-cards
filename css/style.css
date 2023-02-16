@@ -16,8 +16,12 @@ body{
     background-color: rgb(103, 103, 244);
 }
 
-.container, header p{
-    margin-top: 2rem;
+.container, header p, main{
+    margin-top: 3rem;
+}
+
+main ul li{
+    list-style: none;
 }
 
 /* Header */
@@ -25,4 +29,19 @@ header span{
     color: #E53170;
     font-weight: 900;
     font-size: 2rem;
+}
+
+/* Main */
+.team{
+    width: calc(100% / 3);
+    border: 1px solid black;
+    background-color: red;
+    float: left;
+    
+}
+
+li img{
+    width: 100px;
+    height: 100px;
+    
 }
