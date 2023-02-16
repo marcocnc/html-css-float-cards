@@ -1,3 +1,4 @@
+/* General */
 *{
     margin: 0;
     padding: 0;
@@ -33,6 +34,16 @@ main ul li{
     clear: both;
 }
 
+.name{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: #6ECBEB;
+}
+/* /General */
+
 /* Header */
 header span{
     color: #E53170;
@@ -43,7 +54,7 @@ header span{
 /* Main */
 .team li {
     width: calc(100% / 3 - 20px);
-    background-color: red;
+    background-color: black;
     float: left;
     margin: 0 10px 20px; 
 }
@@ -52,9 +63,21 @@ li img{
     width: 100px;
     height: 100px;
     float: left;
-    
+    margin-right: 10px;
 }
 
-.id span{
-    padding-left:10px;
+.id{
+    color:white;
+    padding-top:2px;
 }
+
+.name, .work, a{
+    line-height: 30px;
+}
+
+.id .name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
